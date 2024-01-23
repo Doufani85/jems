@@ -38,8 +38,8 @@ ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 LOCATION '/user/data/image_link';
 
-DROP TABLE IF EXISTS bdd_projet.meseum;
-CREATE EXTERNAL TABLE bdd_projet.meseum (
+DROP TABLE IF EXISTS bdd_projet.museum;
+CREATE EXTERNAL TABLE bdd_projet.museum (
   museum_id INT,
   Name STRING,
   address STRING,
@@ -52,10 +52,10 @@ CREATE EXTERNAL TABLE bdd_projet.meseum (
 )
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
-LOCATION '/user/data/meseum';
+LOCATION '/user/data/museum';
 
-DROP TABLE IF EXISTS bdd_projet.meseum_hours;
-CREATE EXTERNAL TABLE bdd_projet.meseum_hours (
+DROP TABLE IF EXISTS bdd_projet.museum_hours;
+CREATE EXTERNAL TABLE bdd_projet.museum_hours (
   museum_id INT,
   day STRING, 
   open STRING, 
@@ -63,7 +63,7 @@ CREATE EXTERNAL TABLE bdd_projet.meseum_hours (
 )
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
-LOCATION '/user/data/meseum_hours';
+LOCATION '/user/data/museum_hours';
 
 DROP TABLE IF EXISTS bdd_projet.product_size;
 CREATE EXTERNAL TABLE bdd_projet.product_size (
