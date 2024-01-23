@@ -17,7 +17,7 @@ FIELDS TERMINATED BY ','
 LOCATION '/user/data/artist';
 
 DROP TABLE IF EXISTS bdd_projet.canvas_size;
-CREATE EXTERNAL TABLE bdd_projet.anvas_size (
+CREATE EXTERNAL TABLE bdd_projet.canvas_size (
   size_id INT,
   width INT,
   height INT,
