@@ -14,7 +14,7 @@ CREATE EXTERNAL TABLE bdd_projet.artist (
 )
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
-LOCATION '/user/data/artist';
+LOCATION '/data/artist';
 
 DROP TABLE IF EXISTS bdd_projet.canvas_size;
 CREATE EXTERNAL TABLE bdd_projet.canvas_size (
@@ -25,7 +25,7 @@ CREATE EXTERNAL TABLE bdd_projet.canvas_size (
 )
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
-LOCATION '/user/data/canvas_size';
+LOCATION '/data/canvas_size';
 
 DROP TABLE IF EXISTS bdd_projet.image_link;
 CREATE EXTERNAL TABLE bdd_projet.image_link (
@@ -36,7 +36,7 @@ CREATE EXTERNAL TABLE bdd_projet.image_link (
 )
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
-LOCATION '/user/data/image_link';
+LOCATION '/data/image_link';
 
 DROP TABLE IF EXISTS bdd_projet.museum;
 CREATE EXTERNAL TABLE bdd_projet.museum (
@@ -52,7 +52,7 @@ CREATE EXTERNAL TABLE bdd_projet.museum (
 )
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
-LOCATION '/user/data/museum';
+LOCATION '/data/museum';
 
 DROP TABLE IF EXISTS bdd_projet.museum_hours;
 CREATE EXTERNAL TABLE bdd_projet.museum_hours (
@@ -63,7 +63,7 @@ CREATE EXTERNAL TABLE bdd_projet.museum_hours (
 )
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
-LOCATION '/user/data/museum_hours';
+LOCATION '/data/museum_hours';
 
 DROP TABLE IF EXISTS bdd_projet.product_size;
 CREATE EXTERNAL TABLE bdd_projet.product_size (
@@ -74,7 +74,7 @@ CREATE EXTERNAL TABLE bdd_projet.product_size (
 )
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
-LOCATION '/user/data/product_size';
+LOCATION '/data/product_size';
 
 DROP TABLE IF EXISTS bdd_projet.subject;
 CREATE EXTERNAL TABLE bdd_projet.subject (
@@ -84,7 +84,7 @@ CREATE EXTERNAL TABLE bdd_projet.subject (
 )
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
-LOCATION '/user/data/subject';
+LOCATION '/data/subject';
 
 DROP TABLE IF EXISTS bdd_projet.work;
 CREATE EXTERNAL TABLE bdd_projet.work (
@@ -96,7 +96,7 @@ CREATE EXTERNAL TABLE bdd_projet.work (
 )
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
-LOCATION '/user/data/work';
+LOCATION '/data/work';
 
 
 
